@@ -9733,7 +9733,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1846956499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11582,6 +11582,7 @@ GameObject:
   - component: {fileID: 2092824043}
   - component: {fileID: 2092824042}
   - component: {fileID: 2092824041}
+  - component: {fileID: 2092824044}
   m_Layer: 0
   m_Name: '[BuildingBlock] HandGrabInstallationRoutine'
   m_TagString: Untagged
@@ -11688,6 +11689,19 @@ MonoBehaviour:
     _installationVariants:
     - _memberName: mode
       _value: '{"value__":0}'
+--- !u!114 &2092824044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092824039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1b975aeefd0fee4e8e9f7defb1f1d49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoCanvas: {fileID: 1846956498}
 --- !u!1 &2093770500
 GameObject:
   m_ObjectHideFlags: 0
